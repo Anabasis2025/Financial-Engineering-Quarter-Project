@@ -6,3 +6,5 @@ scipy
 pandas_datareader
 kagglehub
 matplotlib
+requests
+python-dotenv
