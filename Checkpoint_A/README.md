@@ -1,10 +1,10 @@
 # Checkpoint_A 
 
 **Goal:**
-Validate whether an actively managed, rules-based ETF (using dual-momentum and trend-following) can outperform passive exposure to transformational technologies.
+Validate whether an actively managed, rules-based ETF (using momentum-based security selection and trend-following) can outperform passive exposure to transformational technologies.
 
 ## Project Summary
-Checkpoint A tests the core thesis of the Anabasis Transformational Technologies Fund that systematic, rules-based management improves performance for innovation-focused assets.
+Checkpoint A tests the core thesis of the Anabasis Transformational Technologies Fund that systematic, rules-based management improves performance for innovation-focused portfolios.
 
 The backtests implement:
 - Three momentum strategies: Baseline (90-day), Dual-momentum (60-day + 120-day), and Walk-Forward Validation
