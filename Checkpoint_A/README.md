@@ -30,7 +30,7 @@ The backtests implement:
 Monthly rebalancing outperforms quarterly/annual. Equal-weight beats volatility-parity and mean variance optimization. Walk-forward validation confirms robustness.
 
 **Data:**
-The dataset is from [Polygon.io](https://polygon.io/).
+The dataset was sourced via API from [Polygon.io](https://polygon.io/).
 
 ## Repository Contents
 
