@@ -1,7 +1,7 @@
 # Checkpoint_A 
 
-**Goal:**
-Validate whether an actively managed, rules-based ETF (using momentum-based security selection and trend-following) can outperform passive exposure to transformational technologies.
+**Overview:**
+This repository contains my submission for Checkpoint Assignment A. The objective is to validate whether an activley managed, rules-based ETF (using momentum-based security selectin and trend-following) can outperform passive exposure to transformational technologies.
 
 ## Project Summary
 Checkpoint A tests the core thesis of the Anabasis Transformational Technologies Fund that systematic, rules-based management improves performance for innovation-focused portfolios.
@@ -18,7 +18,33 @@ The backtests implement:
 - Statistical validation: Deflated-Sharpe-ratio analysis to guard against multiple testing bias
 - Stress testing: Synthetic dot-com crash scenario
 
-## How to Run Checkpoint A
+## Results
+**Best Strategy:** S1 - Baseline Momentum + Equal Weight
+- Total Return: 4,459% | Sharpe: 1.25 | Max Drawdown: -64.2%
+
+**Passive Benchmark (B1):**
+- Total Return: 1,837% | Sharpe: 1.12 | Max Drawdown: -63.4%
+
+**Outperformance:** S1 beats passive by 143% in total returns with superior risk-adjusted performance.
+
+Monthly rebalancing outperforms quarterly/annual. Equal-weight beats volatility-parity and mean variance optimization. Walk-forward validation confirms robustness.
+
+**Data:**
+The dataset is from [Polygon.io](https://polygon.io/).
+
+## Repository Contents
+
+- `Krug_Checkpoint_A_Enhancements_Final.ipynb` - Jupyter Notebook code
+- `Krug_Checkpoint_A_Enhancements_Final.html` - HTML
+- `Kyle Krug_Checkpoint_Assignment_A_Final.dox` - Research report
+- `requirements.txt` - Dependencies
+  
+## AI Usage Declaration
+
+I developed this code consulting official documentation (Pandas, scikit-learn), open-source GitHub repositories, community discussions, the literature mentioned in the research section of the paper, and my previous classwork. To validate and troubleshoot my code, I also used Anthropic's Claude.
+
+## Setup and Running
 1. **Install dependencies:**
 ```bash
 pip install -r ../requirements.txt```
+
