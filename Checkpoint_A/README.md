@@ -46,5 +46,5 @@ I developed this code consulting official documentation (Pandas, scikit-learn), 
 ## Setup and Running
 1. **Install dependencies:**
 ```bash
-pip install -r ../requirements.txt```
+pip install -r ../requirements.txt
 
