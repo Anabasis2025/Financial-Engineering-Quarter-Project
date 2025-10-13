@@ -7,13 +7,13 @@ Validate whether an actively managed, rules-based ETF (using dual-momentum and t
 Checkpoint A tests the core thesis of the Anabasis Transformational Technologies Fund that systematic, rules-based management improves performance for innovation-focused assets.
 
 The backtests implement:
-- Dual-momentum (60 / 120-day) + 200-DMA trend-following entry/exit
-- Portfolio weighting: Equal-Weight vs Volatility-Parity vs Mean-Variance
-- Benchmarks: Internal Equal-Weight and external QQQ ETF
-- Lag-safe signals
-- Walk-forward validation and deflated-Sharpe testing for robustness
+- Three momentum strategies: Baseline (90-day), Dual-momentum (60-day + 120-day), and Walk-Forward Validation
+- Portfolio weighting: Equal-weight allocation within selected securities
+- Benchmarks: Internal Equal-Weight passive benchmark
+- Security selection: Top 2 per sleeve based on momentum rankings
+- Walk-forward validation with 1-year training windows and 3-month test periods for robustness
 
 ## How to Run Checkpoint A
-1. **Install dependencies:
+1. **Install dependencies:**
 ```bash
 pip install -r ../requirements.txt```
