@@ -36,7 +36,7 @@ The dataset was sourced via API from [Polygon.io](https://polygon.io/).
 
 - `Krug_Checkpoint_A_Enhancements_Final.ipynb` - Jupyter Notebook code
 - `Krug_Checkpoint_A_Enhancements_Final.html` - HTML
-- `Kyle Krug_Checkpoint_Assignment_A_Final.dox` - Research report
+- `Kyle Krug_Checkpoint_Assignment_A_Final.docx` - Research report
 - `requirements.txt` - Dependencies
   
 ## AI Usage Declaration
