@@ -1,7 +1,7 @@
 # Checkpoint_A 
 
 **Overview:**
-This repository contains my submission for Checkpoint Assignment A. The objective is to validate whether an activley managed, rules-based ETF (using momentum-based security selectin and trend-following) can outperform passive exposure to transformational technologies.
+This repository contains my submission for Checkpoint Assignment A. The objective is to validate whether an activley managed, rules-based ETF (using momentum-based security selection and trend-following) can outperform passive exposure to transformational technologies.
 
 ## Project Summary
 Checkpoint A tests the core thesis of the Anabasis Transformational Technologies Fund that systematic, rules-based management improves performance for innovation-focused portfolios.
