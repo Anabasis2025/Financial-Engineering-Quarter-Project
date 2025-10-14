@@ -30,7 +30,7 @@ The backtests implement:
 Monthly rebalancing outperforms quarterly/annual. Equal-weight beats volatility-parity and mean variance optimization. Walk-forward validation confirms robustness.
 
 **Data:**
-The dataset was sourced via API from [Polygon.io](https://polygon.io/).
+The dataset was sourced via API from [Polygon.io](https://polygon.io/). I also compiled the daily close prices into `attf_polygon_data_extended.csv` for local analysis covering October 2015 - October 2025, spanning 20 securities across the four sleeves.
 
 ## Repository Contents
 
