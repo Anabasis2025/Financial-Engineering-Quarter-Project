@@ -30,13 +30,14 @@ The backtests implement:
 Monthly rebalancing outperforms quarterly/annual. Equal-weight beats volatility-parity and mean variance optimization. Walk-forward validation confirms robustness.
 
 **Data:**
-The dataset was sourced via API from [Polygon.io](https://polygon.io/). I also compiled the daily close prices into `attf_polygon_data_extended.csv` for local analysis covering October 2015 - October 2025, spanning 20 securities across the four sleeves.
+The dataset was sourced via API from [Polygon.io](https://polygon.io/). I also compiled the daily close prices into `attf_polygon_data_extended (1).csv` for local analysis covering October 2015 - October 2025, spanning 20 securities across the four sleeves.
 
 ## Repository Contents
 
 - `Krug_Checkpoint_A_Enhancements_Final.ipynb` - Jupyter Notebook code
 - `Krug_Checkpoint_A_Enhancements_Final.html` - HTML
 - `Kyle Krug_Checkpoint_Assignment_A_Final.docx` - Research report
+- `attf_polygon_data_extended (1).csv` - Daily close prices for 20 securities across four sleeves from October 2015 - October 2025
 - `requirements.txt` - Dependencies
   
 ## AI Usage Declaration
