@@ -1,1 +1,8 @@
-
+polars
+numpy
+pandas
+matplotlib
+scikit-learn
+xgboost
+pandas_datareader
+scipy
