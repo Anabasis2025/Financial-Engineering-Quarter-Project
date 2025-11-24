@@ -15,7 +15,7 @@ Strategy evaluation revealed that Ensemble ML is the optimal strategy, deliverin
 The Ensemble Machine Learning Strategy was the leading strategy at the end of my research. Clenow achieved incredible CAGR and Sharpe as well well, however, it's volatility and maximum drawdown were too significant to make it a consideration for being the leading strategy for the ATTF. While the hybrid regime-switching strategy trailed Clenow's CAGR, it had the highest Sharpe ratio out of all the main strategies, and an aggressive hybrid strategy actually produced the greatest CAGR during alternative strategy testing. Most importantly, the Ensemble Machine Learning strategy produced the greatest positive return during real-world out-of-sample validation, solidifying its place as the main ATTF strategy moving forward. These results provide valuable empirical evidence that guides strategy selection for the ATTF mandate by eliminating approaches fundamentally unsuited to momentum-driven innovation sectors, preventing costly capital deployment in strategies destined to fail.
 
 **Data:**
-The dataset was sourced via API from [Polygon.io](https://polygon.io/), spanning 46 securities across the six sleeves. 
+The dataset was sourced via API from [Polygon.io](https://polygon.io/), spanning 46 securities across the six sleeves. I also compiled universe data across 8 files: `fred_macro_features.csv`, 'hmm_features.csv', 'portfolio_prices.csv', 'portfolio_returns.csv', 'proxy_returns.csv', 'sleeve_returns.csv', 'spy_benchmarks.csv', and 'universe_metadata.csv' for local analysis covering October 2015 - October 2025.
 
 ## Repository Contents
 
